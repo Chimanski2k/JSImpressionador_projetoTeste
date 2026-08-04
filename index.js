@@ -1,1 +1,4 @@
-console.log('Estou usando o GitHub');
+import { turboLogger } from './turboLogger.js';
+
+turboLogger('Estou aprendendo o fluxo do Git', 'black');
+console.error('ERRO?');
